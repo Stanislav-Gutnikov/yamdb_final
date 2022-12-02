@@ -44,8 +44,9 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
+          context: api_yamdb/Dockerfile
           push: true
-          tags: stanislavgutnikov/new_repo:latest
+          tags: stanislavgutnikov/inspiring_stonebraker:latest
 
   deploy:
     runs-on: ubuntu-latest
