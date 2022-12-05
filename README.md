@@ -60,7 +60,7 @@ docker-compose exec web python collectstatic --no-input
 http://127.0.0.1:5000/
 
 # Шаблон .env файла (создать и заполнить .env для работы с БД):
-DB_ENGINE=your_engine (работаем с postgresql)
+DB_ENGINE=your_engine (работае с postgresql)
 DB_NAME=your_name (имя базы данных)
 POSTGRES_USER=your_user (логин для подключения к базе данных)
 POSTGRES_PASSWORD=your_password (пароль для подключения к БД)
