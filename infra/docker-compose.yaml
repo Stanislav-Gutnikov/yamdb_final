@@ -10,9 +10,9 @@ services:
     env_file:
       - ./.env
   web:
-    # build: ../api_yamdb/
-    # restart: always
-    image: stanislavgutnikov/inspiring_stonebraker:latest
+    build: ../api_yamdb/
+    restart: always
+    # image: stanislavgutnikov/inspiring_stonebraker:latest
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
