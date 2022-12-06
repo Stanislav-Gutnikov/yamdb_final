@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: 3.7
       - name: Install dependencies
-        run: |
+        ran: |
           python -m pip install --upgrade pip
           pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
           pip install -r api_yamdb/requirements.txt
@@ -80,4 +80,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: ${{ github.workflow }} успешно выполнен!
+        message: ${{ github.workflow }} консерва работает!
