@@ -59,7 +59,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        skript: |
+        script: |
           sudo docker pull stanislavgutnikov/inspiring_stonebraker
           sudo docker stop $(sudo docker ps -a -q)
           sudo docker run --rm -d -p 5000:5000 stanislavgutnikov/inspiring_stonebraker
