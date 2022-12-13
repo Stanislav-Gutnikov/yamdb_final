@@ -1,5 +1,5 @@
 # yamdb_final
-# Ссылка на проект: http://158.160.42.242:5000/
+# Ссылка на проект: http://158.160.42.242/api/v1/
 ![Build Status](https://github.com/Stanislav-Gutnikov/yamdb_final/workflows/tests/badge.svg)](https://github.com/Stanislav-Gutnikov/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 # Описание:
