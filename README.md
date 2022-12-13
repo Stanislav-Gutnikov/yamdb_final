@@ -53,7 +53,7 @@ docker-compose exec web python manage.py createsuperuser
 Подключаем статику:
 
 ```
-docker-compose exec web python collectstati --no-input
+docker-compose exec web python collectstatic --no-input
 ```
 
 Проект запустится, и посмотреть его можно здесь:
